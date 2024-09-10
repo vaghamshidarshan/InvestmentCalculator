@@ -1,0 +1,11 @@
+.imagelogo {
+  width: 8%;
+}
+
+.header_hading {
+  font-size: 1.8rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: initial;
+  color: #fff;
+}
