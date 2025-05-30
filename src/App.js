@@ -47,21 +47,6 @@ function App() {
       <UserInput userInput={userInput} onChange={handleChanges} />
       {!inputIsValid && <p>Please enter valid input data</p>}
       {inputIsValid && <Result input={userInput} />}
-
-      <h1 style={{ color: newColorState }}>CSS is great!</h1>
-      <ul>
-        <li>
-          <button onClick={() => setNewColorState("green")}>Yes</button>
-        </li>
-        <li>
-          <button onClick={() => setNewColorState("red")}>No</button>
-        </li>
-      </ul>
-
-      <div>
-        <h1 style={{ color: color, backgroundColor: result }}>Style me!</h1>
-        <button onClick={newColor}>Toggle style</button>
-      </div>
     </div>
   );
 }
